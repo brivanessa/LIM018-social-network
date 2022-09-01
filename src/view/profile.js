@@ -116,7 +116,7 @@ export const profileTemplate = () => {
         <button id="close" class="closeProfileModal"> CERRAR </button>
       </div>
     </div>
-   <div>`;
+   </div>`;
   const divProfile = document.createElement('div');
   divProfile.classList = 'profile';
   divProfile.innerHTML = viewProfile;

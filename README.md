@@ -13,7 +13,7 @@
 
 ## 1. Preámbulo
 
-Una red social permite hacer llegar contenido de manera rápida e instantáneamente. Para nuestro proyecto decidimos crear un aplicativo para usuarios a quienes les gusta ver películas, documentales, series, entre otros. Siendo así, decidimos realizar una encuesta y recopilar datos cuantitativos y cualitativos que nos permita entender al potencial usuario de nuestra aplicación. 
+PopcornZone es una red social que permite hacer llegar contenido de manera rápida e instantáneamente. Para nuestro proyecto decidimos crear un aplicativo para usuarios a quienes les gusta ver películas, documentales, series, entre otros. Siendo así, decidimos realizar una encuesta y recopilar datos cuantitativos y cualitativos que nos permita entender al potencial usuario de nuestra aplicación. 
 
 ![welcome](https://user-images.githubusercontent.com/105660480/186044259-27cd7127-e379-48ac-a3a4-0c5a4d655b91.png)
 

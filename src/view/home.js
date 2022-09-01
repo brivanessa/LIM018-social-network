@@ -18,15 +18,15 @@ export const homeTemplate = () => {
   const viewHome = ` 
     <div class="information-user"> 
       <div class="container-info">
-      <div class="container-user-photo">
-        <div class="photo-user">
-          <img alt="Foto del usuario" class ='user-home-photo'>
+        <div class="container-user-photo">
+          <div class="photo-user">
+            <img alt="Foto del usuario" class ='user-home-photo'>
+          </div>
         </div>
-      </div>
-      <div class="data-user">
-        <p id="name-profile"> </p>
-        <p id="user-profile"> </p>
-      </div>
+        <div class="data-user">
+          <p id="name-profile"> </p>
+          <p id="user-profile"> </p>
+        </div>
       </div>
       <button class="go-profile"> 
         <a href="#/profile">
@@ -36,23 +36,23 @@ export const homeTemplate = () => {
       </button>  
     </div>
     <div class="container-publications">
-    <form class="form-publication" id="form-publication">
-      <textarea name="post" id ="comment" minlength="4" maxlength="600" rows="6" cols="12"  placeholder="¿Qué nos quieres decir?"> </textarea>
-      <div class="container-button">
-        <label for="upload" class="photo-change-post"> <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" class="upload-photo"> </label>
-        <input id="upload" accept="image/jpeg" type="file" class="cargar-foto" >
-        <input type="submit" title="Click to post" value="Compartir" class="post-button" id="post-button-form">
+      <form class="form-publication" id="form-publication">
+        <textarea name="post" id ="comment" minlength="4" maxlength="600" rows="6" cols="12"  placeholder="¿Qué nos quieres decir?"> </textarea>
+        <div class="container-button">
+          <label for="upload" class="photo-change-post"> <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" class="upload-photo"> </label>
+          <input id="upload" accept="image/jpeg" type="file" class="cargar-foto" >
+          <input type="submit" title="Click to post" value="Compartir" class="post-button" id="post-button-form">
+        </div>
+      </form>
+      <div class="all-publications" id='all-publications'> </div>
+      <div class="background-modal-edit">
+        <div class="modal-post-edit">
+          <p> EDITAR POST </p>
+          <input type="text" id="edit-post" placeholder="Edita tu post"> </input>
+          <button class="save-post"> GUARDAR CAMBIOS </button>
+          <button class="close-modal"> CERRAR </button>
+        </div>
       </div>
-    </form>
-    <div class="all-publications" id='all-publications'> </div>
-    <div class="background-modal-edit">
-      <div class="modal-post-edit">
-        <p> EDITAR POST </p>
-        <input type="text" id="edit-post" placeholder="Edita tu post"> </input>
-        <button class="save-post"> GUARDAR CAMBIOS </button>
-        <button class="close-modal"> CERRAR </button>
-      </div>
-    <div>
     </div>`;
   const divElem = document.createElement('section');
   divElem.id = 'home';

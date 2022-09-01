@@ -38,7 +38,7 @@ export const loginTemplate = () => {
         <p class="login-error"> Hay un error </p>
         <button class="close-modal"> CERRAR </button>
       </div>
-    <div>`;
+    </div>`;
   const divLogin = document.createElement('section');
   divLogin.id = 'login';
   divLogin.innerHTML = loginView;

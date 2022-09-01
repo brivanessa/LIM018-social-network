@@ -24,7 +24,7 @@ export const registerTemplate = () => {
       <p class="register-error"> Hay un error </p>
       <button class="close-modal"> CERRAR </button>
     </div>
-  <div>`;
+  </div>`;
   const divRegister = document.createElement('section');
   divRegister.id = 'register';
   divRegister.innerHTML = viewRegister;
