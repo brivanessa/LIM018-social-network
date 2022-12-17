@@ -54,7 +54,7 @@ _Resumen del feedback recibido_
 - Los botones para reaccionar a las publicaciones no eran reconocidos del todo por los usuarios, por lo que se recomendó reformular ello.
 
 **Prototipos de alta fidelidad**
-
+[Figma](https://www.figma.com/proto/FWCP89K0PVTYZZpbyrY7bY/social-network?node-id=27%3A50&scaling=scale-down&page-id=0%3A1&starting-point-node-id=27%3A50&show-proto-sidebar=1)
 ![alta fidelidad](https://user-images.githubusercontent.com/105660480/186051018-36ba614e-f901-479e-8d37-317cecaea1db.png)
 
 **Historias de usuario**
